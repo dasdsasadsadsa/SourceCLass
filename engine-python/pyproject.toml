@@ -1,0 +1,10 @@
+[project]
+name = "sourceclass-engine"
+version = "0.1.0"
+description = "Python AI analysis and GitBook writer engine for SourceClass."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.sourceclass]
+engine = "python"
+schema = "sourceclass.projectMap.v1"

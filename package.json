@@ -1,0 +1,52 @@
+{
+  "name": "sourceclass",
+  "version": "0.1.0",
+  "description": "A terminal-native AI code anatomy classroom that generates GitBook-style documentation from source code projects.",
+  "type": "module",
+  "bin": {
+    "sourceclass": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx sourceclass/cli/index.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "code-analysis",
+    "documentation",
+    "gitbook",
+    "education",
+    "source-code"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.10.1",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.2",
+    "ora": "^9.0.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  }
+}

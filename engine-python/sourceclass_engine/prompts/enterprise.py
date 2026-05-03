@@ -1,0 +1,1 @@
+ENTERPRISE_PROMPT = """Include a security risk table, API key exposure risk, dependency risk, input/output risk, file system risk, build/deployment risk, and a clear notice that this is not a professional audit."""

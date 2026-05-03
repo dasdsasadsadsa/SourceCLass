@@ -1,0 +1,12 @@
+﻿node_modules/
+dist/
+coverage/
+.sourceclass/
+sourceclass-output/
+.env
+.env.*
+*.log
+*.zip
+target/
+.venv/
+__pycache__/

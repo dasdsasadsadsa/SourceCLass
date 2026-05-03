@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/SourceCLass/native-cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
