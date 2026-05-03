@@ -1,7 +1,7 @@
 # SourceClass
 
 **Try to understand any codebase like a class.**
-
+**Youtube-gem-finder on v3 is chrome program. Easter egg**
 > ⚠️ Note
 > This is not a finished product.
 > SourceClass is currently a small starting point and an experimental research project.
